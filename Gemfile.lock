@@ -3,6 +3,12 @@ GEM
   specs:
     ProMotion (1.0.4)
     rake (10.1.0)
+    sugarcube (1.1.0)
+    sweettea (0.6.0)
+      rake
+      sugarcube
+      teacup
+    teacup (2.1.10)
 
 PLATFORMS
   ruby
@@ -10,3 +16,6 @@ PLATFORMS
 DEPENDENCIES
   ProMotion (= 1.0.4)
   rake
+  sugarcube
+  sweettea (= 0.6.0)
+  teacup (= 2.1.10)
